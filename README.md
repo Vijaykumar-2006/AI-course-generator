@@ -25,24 +25,24 @@ AICODE-MAIN/
 ├── server.js # Node.js backend for Gemini API    
 ├── .env # Environment variables   
 │   
-├── src/ 
-│ ├── pages/ 
-│ │ ├── CourseCreator.tsx 
-│ │ ├── Dashboard.tsx
-│ │ ├── Login.tsx
-│ │ ├── Analytics.tsx
-│ │ └── Settings.tsx
-│ │
-│ ├── components/
-│ │ ├── Layout.tsx
-│ │ └── ui/Toaster.tsx
-│ │
-│ ├── contexts/AuthContext.tsx
-│ ├── lib/supabase.ts
-│ ├── App.tsx
-│ └── App.css
-│
-└── README.md
+├── src/   
+│ ├── pages/   
+│ │ ├── CourseCreator.tsx   
+│ │ ├── Dashboard.tsx  
+│ │ ├── Login.tsx  
+│ │ ├── Analytics.tsx  
+│ │ └── Settings.tsx  
+│ │  
+│ ├── components/  
+│ │ ├── Layout.tsx  
+│ │ └── ui/Toaster.tsx  
+│ │  
+│ ├── contexts/AuthContext.tsx  
+│ ├── lib/supabase.ts  
+│ ├── App.tsx  
+│ └── App.css  
+│  
+└── README.md  
 
 '''
 
