@@ -22,9 +22,9 @@ Users can specify a **topic**, select **language**, **tone**, and **difficulty l
 
 AICODE-MAIN/
 
-├── server.js # Node.js backend for Gemini API 
-├── .env # Environment variables 
-│ 
+├── server.js # Node.js backend for Gemini API    
+├── .env # Environment variables   
+│   
 ├── src/ 
 │ ├── pages/ 
 │ │ ├── CourseCreator.tsx 
