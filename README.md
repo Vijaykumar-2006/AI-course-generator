@@ -18,6 +18,8 @@ Users can specify a **topic**, select **language**, **tone**, and **difficulty l
 
 ## 🏗️ Project Architecture
 
+'''
+
 AICODE-MAIN/
 ├── server.js # Node.js backend for Gemini API
 ├── .env # Environment variables
@@ -41,8 +43,7 @@ AICODE-MAIN/
 │
 └── README.md
 
-yaml
-Copy code
+'''
 
 ---
 
@@ -70,27 +71,28 @@ Create a `.env` file in the project root and add your keys:
 GEMINI_API_KEY=your_google_ai_studio_api_key
 SUPABASE_URL=your_supabase_project_url
 SUPABASE_ANON_KEY=your_supabase_anon_key
+
+
 🧩 Installation
 1️⃣ Clone the Repository
-bash
-Copy code
 git clone https://github.com/your-username/ai-course-creator.git
 cd ai-course-creator
+
 2️⃣ Install Dependencies
-bash
-Copy code
 npm install
+
 3️⃣ Run the Backend
-bash
-Copy code
 node server.js
+
 4️⃣ Run the Frontend
-bash
-Copy code
 npm run dev
-Then open your browser at http://localhost:5173.
+
+
+Then open your browser at http://localhost:5173
+.
 
 🧠 How It Works
+
 User enters a topic, selects tone, language, and difficulty.
 
 Backend sends the structured prompt to Google Gemini API.
@@ -102,14 +104,15 @@ Frontend dynamically renders the complete course interactively.
 (Upcoming) Users can export the generated course as PDF or PPT.
 
 🧪 Example Input
+
 Input
 
-makefile
-Copy code
 Topic: Cloud Computing
 Language: English
 Tone: Academic
 Difficulty: Advanced
+
+
 Output
 
 Multiple chapters with detailed explanations (~10 lines each)
@@ -119,6 +122,7 @@ Multiple chapters with detailed explanations (~10 lines each)
 10 open-ended practice questions
 
 💡 Future Enhancements
+
 📘 Export to PDF and PPT
 
 💾 Save and load course progress via Supabase
@@ -130,9 +134,12 @@ Multiple chapters with detailed explanations (~10 lines each)
 🧭 AI-driven topic suggestion engine
 
 🛠️ Troubleshooting
+
 ❌ Model Not Found Error
 ✅ Check that the model name in server.js is correct, e.g.
 gemini-1.5-flash-8b or gemini-2.0-flash.
 
 ❌ API Key Not Working
 ✅ Verify your key in Google AI Studio and ensure it’s active and unrestricted.
+
+'''
